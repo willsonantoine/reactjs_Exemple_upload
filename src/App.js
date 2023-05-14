@@ -25,7 +25,7 @@ function App() {
       maxBodyLength: Infinity,
       url: 'http://siteweb.test/api/admin/fichier/create',
       headers: { 
-        'Authorization': 'Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE2ODQwNjk4NjEsImV4cCI6MTY4NDExMzA2MSwic3ViIjoiaHR0cHM6XC9cL3d3dy5tbGluemktY29ycG9yYXRpb24uY29tIiwiaWQiOiIzZmYzMzdkYS01Njk0LTRlNmMtYWUyYS04N2FiZTNhN2E5OTIiLCJyb2xlIjoiQWRtaW4ifQ.g17iZ2Gj_6ileN7zfafFstOD3VC-e5tPUQxK_1T73Q0', 
+        'Authorization': 'Bearer token', 
       },
       data : formData
     };
